@@ -1,5 +1,7 @@
 package com.example.bookproject;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Book {
     @SerializedName("tytul")
     private String tytul;

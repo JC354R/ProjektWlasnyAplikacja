@@ -28,6 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FBEFEF"
         android:orientation="vertical">
 
         <ImageView
@@ -50,36 +51,43 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="#E2B4BD"
-                android:textSize="20dp"
-                android:text="Example book title" />
+                android:textColor="#FFB2B2"
+                android:textSize="30dp"
+                android:text="Book title" />
 
             <TextView
                 android:id="@+id/genreTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="horror" />
+                android:textColor="#FFB2B2"
+                android:textSize="25dp"
+                android:text="Genre" />
 
             <TextView
                 android:id="@+id/ageCategoryTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="18+" />
+                android:textSize="20dp"
+                android:textColor="#FFB6C1"
+                android:text="Age restriction" />
 
             <TextView
                 android:id="@+id/yearOfProductionTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="2008" />
+                android:textSize="20dp"
+                android:textColor="#FFB6C1"
+                android:text="Year of issue" />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="horizontal">
 
         <Button
@@ -87,6 +95,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#E2B4BD"
+            android:textColor="#4A4A4A"
+            android:padding="10dp"
             android:text="Previous" />
 
         <Button
@@ -94,6 +105,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:backgroundTint="#E2B4BD"
+            android:textColor="#4A4A4A"
             android:text="Next" />
     </LinearLayout>
 
